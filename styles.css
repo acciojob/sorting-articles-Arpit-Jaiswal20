@@ -1,1 +1,11 @@
 /*  your css code here. If applicable */
+.container{
+	background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1200px-Altja_j%C3%B5gi_Lahemaal.jpg);
+}
+.container .Articles{
+	width:200px;
+	position:relative;
+	left:200px;
+	background-color:white;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
