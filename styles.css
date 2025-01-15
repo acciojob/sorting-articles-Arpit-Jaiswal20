@@ -4,8 +4,30 @@
 }
 .container .Articles{
 	width:200px;
+	height:600px;
 	position:relative;
 	left:200px;
 	background-color:white;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+ body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #fff;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
