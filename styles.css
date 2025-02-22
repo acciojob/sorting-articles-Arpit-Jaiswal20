@@ -3,7 +3,10 @@
 	background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1200px-Altja_j%C3%B5gi_Lahemaal.jpg);
 }
 .container .Articles{
-	width:200px;
+	display : flex;
+	align-content : center;
+	justify-content : center;
+	width:400px;
 	height:600px;
 	position:relative;
 	left:200px;
@@ -25,6 +28,9 @@
             padding: 0;
         }
         li {
+			list-style-type: square; 
+			width : 350px;
+		    list-style-position: inside; 
             background: #fff;
             margin: 5px 0;
             padding: 10px;
