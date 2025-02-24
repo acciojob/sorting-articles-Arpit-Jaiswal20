@@ -31,7 +31,7 @@ const sortedBands = bands.sort((a, b) => {
 
 console.log(sortedBands);
 
-const bandList = document.getElementById('band');
+const bandList = document.getElementById('bands');
 
 for(let i=0;i<sortedBands.length;i++)
 {
